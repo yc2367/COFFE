@@ -2985,7 +2985,7 @@ def size_fpga_transistors(fpga_inst, run_options, spice_interface):
 				time_after_sizing = time.time()
 			
 				past_cost = current_cost
-				current_cost =  cost_function(get_eval_area(fpga_inst, opt_type, fpga_inst.RAM.rowdecoder_stage0, 1, 0), get_current_delay(fpga_inst, 1), area_opt_weight, delay_opt_weight)   
+				current_cost =  cost_function(get_eval_area(fpga_inst, opt_type, fpga_inst.sb_mux, 1, 0), get_current_delay(fpga_inst, 1), area_opt_weight, delay_opt_weight)   
 				if (past_cost - current_cost)/past_cost < fpga_inst.specs.quick_mode_threshold:
 					quick_mode_dict["rowdecoder"] = 0
 
