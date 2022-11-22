@@ -1,0 +1,205 @@
+Fitter Route Stage Report for dSP_test
+Sat Nov 19 12:57:32 2022
+Quartus Prime Version 22.3.0 Build 104 09/14/2022 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Delay Chain Summary
+  3. Routing Usage Summary
+  4. Route Messages
+  5. Estimated Delay Added for Hold Timing Summary
+  6. Estimated Delay Added for Hold Timing Details
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2022  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Delay Chain Summary                                                                                                                                          ;
++-------------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+; Name        ; Pin Type ; Input Delay Chain 0 ; Output Delay Chain ; OE Delay Chain ; IO_12_LANE Input Data Delay Chain ; IO_12_LANE Input Strobe Delay Chain ;
++-------------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+; resulta[0]  ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[1]  ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[2]  ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[3]  ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[4]  ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[5]  ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[6]  ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[7]  ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[8]  ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[9]  ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[10] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[11] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[12] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[13] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[14] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[15] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[16] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[17] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[18] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[19] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[20] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[21] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[22] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[23] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[24] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[25] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; resulta[26] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; reset       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; clk         ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a1[0]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a1[1]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a1[2]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a1[3]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a1[4]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a1[5]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a1[6]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a1[7]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a2[0]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a2[1]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a2[2]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a2[3]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a2[4]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a2[5]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a2[6]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; a2[7]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b1[0]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b1[1]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b1[2]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b1[3]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b1[4]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b1[5]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b1[6]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b1[7]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b2[0]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b2[1]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b2[2]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b2[3]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b2[4]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b2[5]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b2[6]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; b2[7]       ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
++-------------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+
+
++----------------------------------------------------------+
+; Routing Usage Summary                                    ;
++------------------------------+---------------------------+
+; Routing Resource Type        ; Usage                     ;
++------------------------------+---------------------------+
+; Block interconnects          ; 101 / 3,375,986 ( < 1 % ) ;
+; C27 interconnects            ; 0 / 56,741 ( 0 % )        ;
+; C4 interconnects             ; 479 / 2,570,048 ( < 1 % ) ;
+; Direct links                 ; 0 / 3,375,986 ( 0 % )     ;
+; Global clocks                ; 1 / 32 ( 3 % )            ;
+; Periphery clocks             ; 0 / 910 ( 0 % )           ;
+; R3 interconnects             ; 87 / 1,214,760 ( < 1 % )  ;
+; R32 interconnects            ; 1 / 99,472 ( < 1 % )      ;
+; R32/C27 interconnect drivers ; 1 / 385,136 ( < 1 % )     ;
+; R6 interconnects             ; 186 / 2,336,152 ( < 1 % ) ;
+; Regional clock lefts         ; 0 / 16 ( 0 % )            ;
+; Regional clock out bottoms   ; 0 / 16 ( 0 % )            ;
+; Regional clock out tops      ; 0 / 16 ( 0 % )            ;
+; Regional clock rights        ; 0 / 16 ( 0 % )            ;
+; Regional clocks              ; 0 / 16 ( 0 % )            ;
+; Spine buffers                ; 1 / 704 ( < 1 % )         ;
+; Spine clocks                 ; 1 / 1,056 ( < 1 % )       ;
+; Spine feedthroughs           ; 0 / 1,024 ( 0 % )         ;
++------------------------------+---------------------------+
+
+
++----------------+
+; Route Messages ;
++----------------+
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+    Info: Version 22.3.0 Build 104 09/14/2022 SC Pro Edition
+    Info: Processing started: Sat Nov 19 12:56:13 2022
+    Info: System process ID: 27321
+Info: Command: quartus_fit --read_settings_files=on --write_settings_files=off dSP_test -c dSP_test
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = dSP_test
+Info: Revision = dSP_test
+Info (170193): Fitter routing operations beginning
+Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
+    Info (170201): Optimizations that may affect the design's routability were skipped
+Info (11888): Total time spent on timing analysis during Routing is 0.02 seconds.
+Info (16607): Fitter routing operations ending: elapsed time is 00:00:16
+
+
++------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Summary              ;
++-----------------+----------------------+-------------------+
+; Source Clock(s) ; Destination Clock(s) ; Delay Added in ns ;
++-----------------+----------------------+-------------------+
+; clk             ; clk                  ; 21.9              ;
++-----------------+----------------------+-------------------+
+Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
+This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
+
+
++----------------------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Details                                                      ;
++-----------------+--------------------------------------------------------------+-------------------+
+; Source Register ; Destination Register                                         ; Delay Added in ns ;
++-----------------+--------------------------------------------------------------+-------------------+
+; ax[3]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.361             ;
+; ax[0]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.360             ;
+; ax[1]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.358             ;
+; ax[6]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.348             ;
+; ax[2]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.346             ;
+; ay[2]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.343             ;
+; by[2]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.338             ;
+; bx[5]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.327             ;
+; bx[2]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.326             ;
+; bx[3]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.323             ;
+; by[1]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.322             ;
+; ax[4]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.321             ;
+; by[0]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.317             ;
+; ay[3]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.316             ;
+; bx[6]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.315             ;
+; ax[5]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.313             ;
+; ay[5]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.299             ;
+; by[4]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.297             ;
+; bx[0]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.293             ;
+; bx[4]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.291             ;
+; bx[1]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.290             ;
+; ay[0]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.285             ;
+; bx[7]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.281             ;
+; ay[1]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.281             ;
+; by[6]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.279             ;
+; ay[4]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.278             ;
+; ay[6]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.278             ;
+; ax[7]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.275             ;
+; by[5]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.262             ;
+; by[3]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.261             ;
+; ay[7]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.253             ;
+; accumulate      ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.138             ;
+; by[7]           ; dsp|a10_native_fixed_point_dsp_0|twentynm_mac_component~reg0 ; 0.128             ;
++-----------------+--------------------------------------------------------------+-------------------+
+Note: This table only shows the top 33 path(s) that have the largest delay added for hold.
+
+

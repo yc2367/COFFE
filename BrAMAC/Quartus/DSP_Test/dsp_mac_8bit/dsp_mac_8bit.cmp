@@ -1,0 +1,17 @@
+	component dsp_mac_8bit is
+		port (
+			ay         : in  std_logic_vector(7 downto 0)  := (others => 'X'); -- ay
+			by         : in  std_logic_vector(7 downto 0)  := (others => 'X'); -- by
+			ax         : in  std_logic_vector(7 downto 0)  := (others => 'X'); -- ax
+			bx         : in  std_logic_vector(7 downto 0)  := (others => 'X'); -- bx
+			accumulate : in  std_logic                     := 'X';             -- accumulate
+			resulta    : out std_logic_vector(26 downto 0);                    -- resulta
+			clk0       : in  std_logic                     := 'X';             -- clk
+			clk1       : in  std_logic                     := 'X';             -- clk
+			clk2       : in  std_logic                     := 'X';             -- clk
+			ena        : in  std_logic_vector(2 downto 0)  := (others => 'X'); -- ena
+			aclr0      : in  std_logic                     := 'X';             -- reset
+			aclr1      : in  std_logic                     := 'X'              -- reset
+		);
+	end component dsp_mac_8bit;
+

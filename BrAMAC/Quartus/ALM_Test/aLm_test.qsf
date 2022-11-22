@@ -1,0 +1,26 @@
+set_global_assignment -name TOP_LEVEL_ENTITY alm_mac_2bit
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.3.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:52:07  NOVEMBER 19, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "22.3.0 Pro Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 100
+set_global_assignment -name DEVICE 10AX090H1F34E1SG
+set_global_assignment -name FAMILY "Arria 10"
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "Questa Intel FPGA (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VERILOG_INPUT_VERSION VERILOG_2001
+set_global_assignment -name DSP_BLOCK_BALANCING "LOGIC ELEMENTS"
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name POWER_APPLY_THERMAL_MARGIN ADDITIONAL
+set_global_assignment -name SYSTEMVERILOG_FILE tb_alm_mac_2bit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE alm_mac_2bit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tb_alm_mac_4bit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE alm_mac_4bit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tb_alm_mac_8bit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE alm_mac.sv
+set_global_assignment -name SYSTEMVERILOG_FILE alm_mac_8bit.sv
+set_global_assignment -name SDC_FILE alm_mac.sdc

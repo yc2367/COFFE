@@ -1,0 +1,247 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2022.1 2022.01, Jan 29 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/yuzong/Desktop/Research/BrAMAC/Quartus/DSP_Test
+T_opt
+!s110 1668908778
+V6S9a_iezJA]cK98Sdz>KL0
+04 15 4 work tb_alm_mac_4bit fast 0
+=1-00e04c610b38-637986ea-967d0-1a8d
+R0
+Z2 !s124 OEM10U3 
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2022.1;75
+R1
+T_opt1
+!s110 1668909296
+VTKGVBZ>bkl^W?bU1jefc=3
+Z6 04 15 4 work tb_alm_mac_2bit fast 0
+=1-00e04c610b38-637988f0-b01aa-3360
+R0
+R2
+o-quiet -auto_acc_if_foreign -work work
+R4
+n@_opt1
+R5
+R1
+T_opt2
+!s110 1668909365
+V=[d0D77]]6jfdzMPkVRmZ1
+R6
+=1-00e04c610b38-63798935-7dc99-3630
+R0
+R2
+R3
+R4
+n@_opt2
+R5
+valm_mac
+Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z8 !s110 1668909334
+!i10b 1
+!s100 i0lHLE:8]gJghJK5h<X:C0
+I0Gb_Kk[<RnScNb?;7HPM[0
+S1
+R1
+w1668907857
+8/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac.sv
+F/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac.sv
+!i122 11
+L0 1 31
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2022.1;75
+r1
+!s85 0
+31
+Z11 !s108 1668909334.000000
+Z12 !s107 /home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/tb_alm_mac_2bit.sv|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac_2bit.sv|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac.sv|
+Z13 !s90 -F=/opt/IntelFPGA_pro/22.3/questa_fse/vlog.opt|-F=|-reportprogress|300|-work|work|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac.sv|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac_2bit.sv|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/tb_alm_mac_2bit.sv|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z15 tSvlog 1 CvgOpt 0
+valm_mac_2bit
+R7
+R8
+!i10b 1
+!s100 Ci5=OllfP[6fdd`>UCbTF1
+IcWFb5@6CT=og1]fbWT:m60
+S1
+R1
+w1668908978
+8/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac_2bit.sv
+F/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac_2bit.sv
+!i122 11
+Z16 L0 1 15
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+valm_mac_4bit
+R7
+Z17 !s110 1668908749
+!i10b 1
+!s100 j>8d4A4Tk_EgZkF1]j`F83
+InCfKzlONce;2;3X`z;hC41
+S1
+R1
+w1668908545
+8/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac_4bit.sv
+F/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac_4bit.sv
+!i122 9
+R16
+R9
+R10
+r1
+!s85 0
+31
+Z18 !s108 1668908749.000000
+Z19 !s107 /home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac.sv|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac_4bit.sv|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/tb_alm_mac_4bit.sv|
+Z20 !s90 -F=/opt/IntelFPGA_pro/22.3/questa_fse/vlog.opt|-F=|-reportprogress|300|-work|work|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/tb_alm_mac_4bit.sv|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac_4bit.sv|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac.sv|
+!i113 0
+R14
+R15
+valm_mac_8bit
+R7
+Z21 !s110 1668908169
+!i10b 1
+!s100 Z]974TggAdCRSHn`RVg;U3
+IF>4PK;gIe3ZZ]=i9o6THA3
+S1
+R1
+w1668907914
+8/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac_8bit.sv
+F/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac_8bit.sv
+!i122 8
+R16
+R9
+R10
+r1
+!s85 0
+31
+Z22 !s108 1668908169.000000
+Z23 !s107 /home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/tb_alm_mac_8bit.sv|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/defines.sv|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac_8bit.sv|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac.sv|
+Z24 !s90 -F=/opt/IntelFPGA_pro/22.3/questa_fse/vlog.opt|-F=|-reportprogress|300|-work|work|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac.sv|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/alm_mac_8bit.sv|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/defines.sv|/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/tb_alm_mac_8bit.sv|
+!i113 0
+R14
+R15
+vtb_alm_mac_2bit
+R7
+R8
+!i10b 1
+!s100 HA@=G14oEKzgUSDTn^4`a1
+I6zl_ckamQ`JeSofeVF;AB0
+S1
+R1
+w1668909077
+8/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/tb_alm_mac_2bit.sv
+F/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/tb_alm_mac_2bit.sv
+!i122 11
+Z25 L0 1 30
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vtb_alm_mac_4bit
+R7
+R17
+!i10b 1
+!s100 3fzKh2CJ@@8BNGe[97Q@T1
+I;BW@CCTF9@GLN2WaK]2IB2
+S1
+R1
+w1668908634
+8/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/tb_alm_mac_4bit.sv
+F/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/tb_alm_mac_4bit.sv
+!i122 9
+R25
+R9
+R10
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R14
+R15
+vtb_alm_mac_8bit
+R7
+R21
+!i10b 1
+!s100 3<@ib6VCZidRVBNOdBd>43
+IFf<:]oTBBA0Vk0RgjWnf42
+S1
+R1
+w1668908161
+Z26 8/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/tb_alm_mac_8bit.sv
+Z27 F/home/yuzong/Desktop/Research/BrAMAC/Quartus/ALM_Test/tb_alm_mac_8bit.sv
+!i122 8
+R25
+R9
+R10
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R14
+R15
+vtb_fsm_2sa
+R7
+!s110 1668906629
+!i10b 1
+!s100 A[Ac8]WZ4o5KOkQmY7KzK1
+I>^`CKZ4=_D@X23ekbBlV83
+S1
+R1
+w1668903467
+R26
+R27
+!i122 0
+L0 1 28
+R9
+R10
+r1
+!s85 0
+31
+!s108 1668906629.000000
+R23
+R24
+!i113 0
+R14
+R15

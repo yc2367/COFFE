@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinplan
+ variation_name="a10_native_fixed_point_dsp_0"
+ megafunction_name="ALTERA_A10_NATIVE_FIXED_POINT_DSP"
+ specifies="all_ports">
+ <global>
+  <pin name="ay[7..0]" direction="input" scope="external" />
+  <pin name="by[17..0]" direction="input" scope="external" />
+  <pin name="ax[7..0]" direction="input" scope="external" />
+  <pin name="bx[17..0]" direction="input" scope="external" />
+  <pin name="chainin[63..0]" direction="input" scope="external" />
+  <pin name="accumulate" direction="input" scope="external" />
+  <pin name="resulta[26..0]" direction="output" scope="external" />
+  <pin name="chainout[63..0]" direction="output" scope="external" />
+  <pin name="clk0" direction="input" scope="external" />
+  <pin name="clk1" direction="input" scope="external" />
+  <pin name="clk2" direction="input" scope="external" />
+  <pin name="ena[2..0]" direction="input" scope="external" />
+  <pin name="aclr0" direction="input" scope="external" />
+  <pin name="aclr1" direction="input" scope="external" />
+ </global>
+</pinplan>

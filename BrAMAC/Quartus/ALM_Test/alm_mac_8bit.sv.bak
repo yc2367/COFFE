@@ -1,0 +1,15 @@
+module alm_mac_8bit (
+		input  logic [7:0]   a, 
+		input  logic [7:0]   b, 
+		input  logic         clk, 
+		input  logic         acc_en,
+		input  logic         reset,
+
+		output logic [26:0]  result
+	);
+
+	alm_mac #(.OWIDTH(8), .AWIDTH(27)) mac (
+		.*
+	);
+	
+endmodule

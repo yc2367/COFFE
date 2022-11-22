@@ -1,0 +1,25 @@
+module alm_mac_test_8bit (
+		input  logic [7:0]  a1, 
+		input  logic [7:0]  b1, 
+		output logic [26:0] result, 
+		input  logic        clk,  
+		input  logic        reset 
+	);
+	
+	logic [7:0]  ax, bx;
+	logic [15:0] product;
+	logic [26:0] old_result;
+	
+	assign product = ax * bx;
+	
+	always @( posedge clk ) begin
+		if ( reset ) begin
+			ax <= 7'd0;
+			ay <= 7'd0;
+			old_result <= 27'd0;
+		end else begin
+			ax <= a1;
+			bx <= b1;
+			old_result <= result;
+		end
+	end

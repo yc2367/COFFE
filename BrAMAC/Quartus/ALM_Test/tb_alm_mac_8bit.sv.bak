@@ -1,0 +1,29 @@
+`include "defines.v" // Define key parameters
+module tb_fsm_2sa;
+
+  logic clk = 1;
+  always #5 clk = ~clk;
+
+  logic acc_en = 1;  
+  logic reset = 1;  
+
+	logic [7:0]   a; 
+	logic [7:0]   b; 
+	logic [26:0]  result; 
+
+  alm_mac_8bit mac (
+    .*
+  );
+
+  initial begin
+    #11  reset = 1'b0;
+    #10  a =  4;   b =  7;
+    #10  a =  8;   b =  9;
+    #10  a = -99;  b = -70;
+    #10  a =  65;  b = -121;
+
+    $stop;
+  end  
+
+
+endmodule
